@@ -1,0 +1,24 @@
+{
+    "name": "bholiveiradev/microsservices-common",
+    "description": "Package Files Utils to Microservices",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bholiveiradev\\MicroservicesCommon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Oliveira",
+            "email": "bholiveira.web@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0.2"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

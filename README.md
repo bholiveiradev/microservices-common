@@ -1,6 +1,6 @@
-# Common Files Microservices Trait
+# Common Files for Microservices
 
-Common files to Microservices Trait for Services
+Common Trait for Microservices Services Layer
 
 ```bash
 composer require bholiveiradev/microsservices-common

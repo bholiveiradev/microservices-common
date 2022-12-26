@@ -9,15 +9,6 @@ use Illuminate\Support\Facades\Http;
 
 trait ConsumeExternalService
 {
-    private $key;
-    private $host;
-
-    public function __construct()
-    {
-        $this->key  = config('services.micro_02.key');
-        $this->host = config('services.micro_02.host');
-    }
-
     /**
      * @param array $headers
      *

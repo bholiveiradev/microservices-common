@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\Http;
 
 trait ConsumeExternalService
 {
-    private $key;
-    private $host;
+    private string $key;
+    private string $host;
 
     /**
      * @param array $headers
